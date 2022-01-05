@@ -1,5 +1,56 @@
 /* CSS in Tag */
+body {
+	font-family: "Work Sans", sans-serif;
+	margin: 0;
+	padding: 0 2%;
+}
+
+h1 {
+	font-size: 50px;
+}
 
 /* CSS in class */
 
+.container-flex {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.width-60 {
+	width: 60%;
+	padding: 3%;
+}
+.width-40 {
+	width: 40%;
+	padding: 3%;
+}
+
+.container-flex img {
+	width: 80%;
+}
+.purple-color {
+	color: BlueViolet;
+}
+
+.link-button {
+	width: 20%;
+	background-image: linear-gradient(Orchid, BlueViolet);
+	border-radius: 10px;
+	box-shadow: 5px 5px 7px gray;
+	padding: 10px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.link-button a {
+	text-decoration: none;
+	color: snow;
+	font-weight: 700;
+}
+
 /* CSS in id */
+
+#important {
+	border-left: 5px solid darkviolet;
+	padding-left: 10px;
+}

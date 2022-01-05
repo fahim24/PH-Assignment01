@@ -2,10 +2,10 @@
 body {
 	font-family: "Work Sans", sans-serif;
 	margin: 0;
-	padding: 0 3%;
 }
 h1 {
 	font-size: 50px;
+	font-family: "Luxurious Roman", cursive;
 }
 h2 {
 	font-size: 40px;
@@ -17,12 +17,20 @@ h3 {
 h4 {
 	font-size: 25px;
 }
+footer {
+	font-family: "Luxurious Roman", cursive;
+	background-color: black;
+	text-align: center;
+	color: whitesmoke;
+	padding: 10px;
+}
 
 /* CSS in class */
 
 .container-flex {
 	display: flex;
 	margin-bottom: 100px;
+	padding: 0 3%;
 }
 .container-flex img {
 	width: 80%;

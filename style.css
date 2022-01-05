@@ -132,7 +132,7 @@ footer {
 	box-shadow: 1px 1px 1px gray;
 }
 #bg-left {
-	background-image: url(/images/shape-1.png);
+	background-image: url(images/shapes/shape-1.png);
 	background-repeat: no-repeat;
 	background-size: 35% 40%;
 	background-position: left;
@@ -141,7 +141,7 @@ footer {
 	padding-left: 8%;
 }
 #bg-right-bottom {
-	background-image: url(/images/shape-1.png);
+	background-image: url(/images/shapes/shape-1.png);
 	background-repeat: no-repeat;
 	background-size: 30% 35%;
 	background-position: right bottom;

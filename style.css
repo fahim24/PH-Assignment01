@@ -12,6 +12,9 @@ h2 {
 	text-align: center;
 }
 h3 {
+	font-size: 35px;
+}
+h4 {
 	font-size: 25px;
 }
 
@@ -68,16 +71,28 @@ h3 {
 	background-color: rgba(135, 207, 235, 0.3);
 	border-radius: 10px;
 	text-align: justify;
+	box-shadow: 1px 1px 1px gray;
 }
 #card-type-2 {
 	margin: 2%;
 	background-color: rgba(124, 104, 238, 0.3);
 	border-radius: 10px;
 	text-align: justify;
+	box-shadow: 1px 1px 1px gray;
 }
 #card-type-3 {
 	margin: 2%;
 	background-color: rgba(239, 69, 245, 0.3);
 	border-radius: 10px;
 	text-align: justify;
+	box-shadow: 1px 1px 1px gray;
+}
+#bg-left {
+	background-image: url(/images/shapes/shape-1.png);
+	background-repeat: no-repeat;
+	background-size: 35% 40%;
+	background-position: left;
+}
+#bg-left img {
+	padding-left: 8%;
 }

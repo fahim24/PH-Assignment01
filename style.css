@@ -5,6 +5,7 @@ body {
 }
 h1 {
 	font-size: 50px;
+	letter-spacing: 2px;
 	font-family: "Luxurious Roman", cursive;
 }
 h2 {
@@ -76,21 +77,21 @@ footer {
 }
 #card-type-1 {
 	margin: 2%;
-	background-color: rgba(135, 207, 235, 0.3);
+	background-color: rgba(135, 207, 235, 0.2);
 	border-radius: 10px;
 	text-align: justify;
 	box-shadow: 1px 1px 1px gray;
 }
 #card-type-2 {
 	margin: 2%;
-	background-color: rgba(124, 104, 238, 0.3);
+	background-color: rgba(65, 105, 225, 0.2);
 	border-radius: 10px;
 	text-align: justify;
 	box-shadow: 1px 1px 1px gray;
 }
 #card-type-3 {
 	margin: 2%;
-	background-color: rgba(239, 69, 245, 0.3);
+	background-color: rgba(0, 0, 128, 0.2);
 	border-radius: 10px;
 	text-align: justify;
 	box-shadow: 1px 1px 1px gray;
@@ -103,4 +104,13 @@ footer {
 }
 #bg-left img {
 	padding-left: 8%;
+}
+#bg-right-bottom {
+	background-image: url(/images/shapes/shape-1.png);
+	background-repeat: no-repeat;
+	background-size: 30% 35%;
+	background-position: right bottom;
+}
+#bg-right-bottom img {
+	padding-left: 10%;
 }

@@ -2,11 +2,17 @@
 body {
 	font-family: "Work Sans", sans-serif;
 	margin: 0;
-	padding: 0 2%;
+	padding: 0 3%;
 }
-
 h1 {
 	font-size: 50px;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+h3 {
+	font-size: 25px;
 }
 
 /* CSS in class */
@@ -15,7 +21,9 @@ h1 {
 	display: flex;
 	margin-bottom: 100px;
 }
-
+.container-flex img {
+	width: 80%;
+}
 .width-60 {
 	width: 60%;
 	padding: 3%;
@@ -24,14 +32,16 @@ h1 {
 	width: 40%;
 	padding: 3%;
 }
-
-.container-flex img {
-	width: 80%;
+.width-33 {
+	width: 33%;
+	padding: 2%;
+}
+.width-33 img {
+	width: 40%;
 }
 .purple-color {
 	color: BlueViolet;
 }
-
 .link-button {
 	width: 20%;
 	background-image: linear-gradient(Orchid, BlueViolet);
@@ -41,7 +51,6 @@ h1 {
 	margin: 20px 0;
 	text-align: center;
 }
-
 .link-button a {
 	text-decoration: none;
 	color: snow;
@@ -53,4 +62,22 @@ h1 {
 #important {
 	border-left: 5px solid darkviolet;
 	padding-left: 10px;
+}
+#card-type-1 {
+	margin: 2%;
+	background-color: rgba(135, 207, 235, 0.3);
+	border-radius: 10px;
+	text-align: justify;
+}
+#card-type-2 {
+	margin: 2%;
+	background-color: rgba(124, 104, 238, 0.3);
+	border-radius: 10px;
+	text-align: justify;
+}
+#card-type-3 {
+	margin: 2%;
+	background-color: rgba(239, 69, 245, 0.3);
+	border-radius: 10px;
+	text-align: justify;
 }

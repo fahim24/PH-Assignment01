@@ -54,6 +54,9 @@ footer {
 .purple-color {
 	color: BlueViolet;
 }
+.orange-color {
+	color: orangered;
+}
 .link-button {
 	width: 20%;
 	background-image: linear-gradient(Orchid, BlueViolet);
@@ -141,7 +144,7 @@ footer {
 	padding-left: 8%;
 }
 #bg-right-bottom {
-	background-image: url(/images/shapes/shape-1.png);
+	background-image: url(images/shapes/shape-1.png);
 	background-repeat: no-repeat;
 	background-size: 30% 35%;
 	background-position: right bottom;

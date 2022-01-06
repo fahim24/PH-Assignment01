@@ -2,6 +2,7 @@
 body {
 	font-family: "Work Sans", sans-serif;
 	margin: 0;
+	background-color: rgba(135, 207, 235, 0.2);
 }
 h1 {
 	font-size: 50px;
@@ -20,7 +21,7 @@ h4 {
 }
 footer {
 	font-family: "Luxurious Roman", cursive;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.9);
 	text-align: center;
 	color: whitesmoke;
 	padding: 5px;
